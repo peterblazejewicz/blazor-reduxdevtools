@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/piotrblazejewicz/git/blazor-reduxdevtools/src/BlazorReduxTools/BlazorReduxTools.csproj": {}
+  },
+  "projects": {
+    "/Users/piotrblazejewicz/git/blazor-reduxdevtools/src/BlazorReduxTools/BlazorReduxTools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/piotrblazejewicz/git/blazor-reduxdevtools/src/BlazorReduxTools/BlazorReduxTools.csproj",
+        "projectName": "BlazorReduxTools",
+        "projectPath": "/Users/piotrblazejewicz/git/blazor-reduxdevtools/src/BlazorReduxTools/BlazorReduxTools.csproj",
+        "packagesPath": "/Users/piotrblazejewicz/.nuget/packages/",
+        "outputPath": "/Users/piotrblazejewicz/git/blazor-reduxdevtools/src/BlazorReduxTools/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/piotrblazejewicz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnet.myget.org/F/blazor-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Browser": {
+              "target": "Package",
+              "version": "[3.0.0-preview3-19153-02, )"
+            },
+            "Microsoft.AspNetCore.Components.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview3-19153-02, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
