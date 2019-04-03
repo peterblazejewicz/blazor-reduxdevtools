@@ -1,0 +1,14 @@
+{
+  "name": "blazor-redux-tools",
+  "version": "1.0.0",
+  "private": true,
+  "main": "content/BlazorReduxTools.js",
+  "scripts": {
+      "build": "tsc"
+  },
+  "author": "@blazejewicz",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}

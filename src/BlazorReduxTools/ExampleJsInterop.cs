@@ -3,14 +3,8 @@ using System.Threading.Tasks;
 
 namespace BlazorReduxTools
 {
-    public class ExampleJsInterop
+    public class ReduxTools
     {
-        public static Task<string> Prompt(IJSRuntime jsRuntime, string message)
-        {
-            // Implemented in exampleJsInterop.js
-            return jsRuntime.InvokeAsync<string>(
-                "exampleJsFunctions.showPrompt",
-                message);
-        }
+        // TODO: TBD
     }
 }
